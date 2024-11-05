@@ -1,64 +1,68 @@
 // From Codemirror
 
 .CodeMirror-foldmarker {
-	color: blue;
-	text-shadow: #b9f 1px 1px 2px, #b9f -1px -1px 2px, #b9f 1px -1px 2px, #b9f -1px 1px 2px;
-	font-family: arial;
-	line-height: .3;
-	cursor: pointer;
+    color: blue;
+    text-shadow:
+        #b9f 1px 1px 2px,
+        #b9f -1px -1px 2px,
+        #b9f 1px -1px 2px,
+        #b9f -1px 1px 2px;
+    font-family: arial;
+    line-height: 0.3;
+    cursor: pointer;
 }
 .CodeMirror-foldgutter {
-	width: .7em;
+    width: 0.7em;
 }
 .CodeMirror-foldgutter-open,
 .CodeMirror-foldgutter-folded {
-	cursor: pointer;
+    cursor: pointer;
 }
 .CodeMirror-foldgutter-open:after {
-	content: "\25BE";
+    content: '\25BE';
 }
 .CodeMirror-foldgutter-folded:after {
-	content: "\25B8";
+    content: '\25B8';
 }
 
 // Hide Foldmarkder
 
 .CodeMirror-foldmarker {
-	display: none;
+    display: none;
 }
 
 // Vertical Align Fold and Line Number
 
 .CodeMirror-gutter-wrapper,
 .CodeMirror-gutter-elt {
-	top: 0;
-	bottom: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .CodeMirror-linenumber,
 .CodeMirror-foldgutter-open,
 .CodeMirror-foldgutter-folded {
-	height: 1.5em; // Follow code line-height
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+    height: 1.5em; // Follow code line-height
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 // Custom Font Should Not Affect Arrows
 
 .CodeMirror-foldgutter-open,
 .CodeMirror-foldgutter-folded {
-	font-family: monospace;
+    font-family: monospace;
 }
 
 // Fold Gutter should be wider
 
 .CodeMirror-foldgutter {
-	width: 1em;
+    width: 1em;
 }
 
 // Hide border of gutter
 
 .CodeMirror-gutters {
-	border-right: none !important;
+    border-right: none !important;
 }

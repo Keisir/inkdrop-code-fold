@@ -1,12 +1,19 @@
 {
-  "name": "code-fold",
-  "main": "./lib/code-fold",
-  "version": "1.4.1",
-  "description": "Code fold plugin for Inkdrop",
-  "keywords": [],
-  "repository": "https://github.com/Keisir/inkdrop-code-fold",
-  "license": "MIT",
-  "engines": {
-    "inkdrop": ">=5.6.0 <7"
-  }
+    "name": "code-fold",
+    "main": "./lib/code-fold",
+    "version": "1.4.1",
+    "description": "Code fold plugin for Inkdrop",
+    "keywords": [],
+    "repository": "https://github.com/Keisir/inkdrop-code-fold",
+    "license": "MIT",
+    "scripts": {
+        "format": "prettier **/*.{js,less,yml,json} --ignore-path .gitignore --write",
+        "format:check": "prettier **/*.{js,less,yml,json} --ignore-path .gitignore --check"
+    },
+    "engines": {
+        "inkdrop": ">=5.6.0 <7"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.2"
+    }
 }

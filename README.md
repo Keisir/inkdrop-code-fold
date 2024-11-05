@@ -1,13 +1,22 @@
-## Code fold plugin for Inkdrop
+# Code fold
 
-![Screenshot](https://raw.githubusercontent.com/moyicat/inkdrop-code-fold/master/Screenshot.png)
+Lets you fold and unfold text blocks in the editor.
 
-### Shortcuts
+## Shortcuts
 
-Shift + Command + e / Shift + Control + e: Fold all
+| Command                | Shortcut                                             | Description |
+| ---------------------- | ---------------------------------------------------- | ----------- |
+| `code-fold:fold-all`   | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | Fold all    |
+| `code-fold:unfold-all` | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Unfold all  |
 
-Shift + Command + r / Shift + Control + r: Unfold all
+## Example
 
-### Change Log
+![Demo](./img/demo.png)
 
-- 2021/05/30 Hiding right border of `.CodeMirror-gutters` for cleaner visual presence.
+## Changelog
+
+See the [GitHub releases](https://github.com/Keisir/inkdrop-code-fold/releases) for an overview of what changed in each update.
+
+## Acknowledgements
+
+Thanks to @moyicat for creating this plugin.
