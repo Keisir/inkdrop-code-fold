@@ -19,4 +19,6 @@ See the [GitHub releases](https://github.com/Keisir/inkdrop-code-fold/releases) 
 
 ## Acknowledgements
 
+Forked from https://github.com/moyicat/inkdrop-code-fold
+
 Thanks to @moyicat for creating this plugin.

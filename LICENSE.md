@@ -1,4 +1,5 @@
-Copyright (c) 2016 - 2024 @moyicat, 2024 Keisir
+Copyright (c) 2016 - 2024 @moyicat <https://github.com/moyicat/inkdrop-code-fold>
+Copyright (c) 2024 Keisir
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
