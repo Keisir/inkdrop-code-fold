@@ -8,6 +8,9 @@ Lets you fold and unfold text blocks in the editor.
 | ---------------------- | ---------------------------------------------------- | ----------- |
 | `code-fold:fold-all`   | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | Fold all    |
 | `code-fold:unfold-all` | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Unfold all  |
+| `code-fold:toggle`     | (unset)                                              | Toggle fold |
+| `code-fold:fold`       | (unset)                                              | Fold        |
+| `code-fold:unfold`     | (unset)                                              | Unfold      |
 
 ## Example
 
