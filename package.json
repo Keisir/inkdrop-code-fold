@@ -1,17 +1,17 @@
 {
     "name": "code-fold",
-    "main": "./lib/code-fold",
-    "version": "1.6.1",
-    "description": "Code fold plugin for Inkdrop",
+    "main": "./src/index",
+    "version": "2.0.0",
+    "type": "commonjs",
+    "description": "Code folding for the Markdown editor, with a fold gutter and quick commands to toggle, fold all, and unfold all.",
     "keywords": [],
     "repository": "https://github.com/Keisir/inkdrop-code-fold",
     "license": "MIT",
     "scripts": {
-        "format": "prettier **/*.{js,less,yml,json} --ignore-path .gitignore --write",
-        "format:check": "prettier **/*.{js,less,yml,json} --ignore-path .gitignore --check"
+        "format": "prettier --ignore-path .gitignore --write ."
     },
     "engines": {
-        "inkdrop": ">=5.11.0 <7"
+        "inkdrop": "^6.x"
     },
     "devDependencies": {
         "prettier": "^3.0.2"

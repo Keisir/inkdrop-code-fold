@@ -1,4 +1,9 @@
 {
+    ".CodeMirror": {
+        "ctrl-m ctrl-l": "code-fold:toggle-fold",
+        "ctrl-m ctrl-8": "code-fold:fold-all",
+        "ctrl-m ctrl-9": "code-fold:unfold-all"
+    },
     ".platform-darwin .CodeMirror": {
         "shift-cmd-e": "code-fold:fold-all",
         "shift-cmd-r": "code-fold:unfold-all"

@@ -1,27 +1,29 @@
-# Code fold
+# Code Fold
 
-Lets you fold and unfold text blocks in the editor.
+A lightweight way to fold Markdown sections and fenced code blocks right inside Inkdrop’s editor. Adds a fold gutter and commands so you can focus on the parts that matter.
 
-## Shortcuts
+## Usage
 
-| Command                | Shortcut                                             | Description |
-| ---------------------- | ---------------------------------------------------- | ----------- |
-| `code-fold:fold-all`   | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | Fold all    |
-| `code-fold:unfold-all` | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Unfold all  |
-| `code-fold:toggle`     | (unset)                                              | Toggle fold |
-| `code-fold:fold`       | (unset)                                              | Fold        |
-| `code-fold:unfold`     | (unset)                                              | Unfold      |
+- Fold indicators are always visible in the left gutter. Click them to fold or unfold a block.
+- Or use the commands and default keybindings below. Commands are available using Telescope by searching for "Code Fold:"
 
-## Example
+### Default keybindings
 
-![Demo](./img/demo.png)
+### Commands and default keybindings
+
+- <kbd>Ctrl</kbd>+<kbd>M</kbd> <kbd>Ctrl</kbd>+<kbd>L</kbd>: Toggle fold at cursor (`code-fold:toggle-fold`)
+- <kbd>Ctrl</kbd>+<kbd>M</kbd> <kbd>Ctrl</kbd>+<kbd>8</kbd>: Fold all (`code-fold:fold-all`)
+- <kbd>Ctrl</kbd>+<kbd>M</kbd> <kbd>Ctrl</kbd>+<kbd>9</kbd>: Unfold all (`code-fold:unfold-all`)
+
+Provided for compatibility with v1.x:
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd> / <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>E</kbd>: Fold all (`code-fold:fold-all`)
+- <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> / <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>: Unfold all (`code-fold:unfold-all`)
+
+You can customize or add your own keybindings from Inkdrop's Preferences > Keybindings.
 
 ## Changelog
 
-See the [GitHub releases](https://github.com/Keisir/inkdrop-code-fold/releases) for an overview of what changed in each update.
+### 2.0.0
 
-## Acknowledgements
-
-Forked from https://github.com/moyicat/inkdrop-code-fold
-
-Thanks to @moyicat for creating this plugin.
+- Support Inkdrop v6
+- Migrated from CodeMirror v5 to v6
